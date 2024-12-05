@@ -12,11 +12,28 @@ Project ini merupakan proyek Analisis Data pada dataset Bike Sharing. Hasil anal
 - `README.md` : file informasi tentang proyek ini
 - `requirements.txt` : file yang berisikan library apa saja yang dilakukan pada proyek ini
 
-## Setup Environment menggunakan venv
+## Clone Repository
+Untuk mendapatkan salinan kode proyek ini dari GitHub, lakukan langkah-langkah berikut:
+
+1. Buka terminal atau command prompt.
+2. Clone repository dengan perintah berikut:
 ```
-Aktifkan environment
+bash
+git clone https://github.com/Fikaaw/submission-analisis-data-python1.git
+```
+3. Masuk ke directory project:
+```
+bash
+cd submission-analisis-data-python1
+```
+
+## Setup environment 
+
+1. Aktifkan Virtual Environment
+```
 # Windows Command Prompt
 myvenv\Scripts\activate.bat
+
 # Linux/Mac
 source myvenv/bin/activate
 
@@ -24,7 +41,13 @@ source myvenv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Run steamlit app
+2. Install library yang dibutuhkan:
+```
+bash
+pip install -r requirements.txt
+```
+
+## Run streamlit app
 ```
 streamlit run dashboard/dashboard.py
 ```
