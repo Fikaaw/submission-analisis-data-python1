@@ -12,14 +12,22 @@ Project ini merupakan proyek Analisis Data pada dataset Bike Sharing. Hasil anal
 - `README.md` : file informasi tentang proyek ini
 - `requirements.txt` : file yang berisikan library apa saja yang dilakukan pada proyek ini
 
+## Setup Environment menggunakan venv
+```
+Aktifkan environment
+# Windows Command Prompt
+myvenv\Scripts\activate.bat
+# Linux/Mac
+source myvenv/bin/activate
+
+# Install requirements
+pip install -r requirements.txt
+```
+
 ## Run steamlit app
 ```
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
 ```
-
-## Streamlit Cloud 
-Link Streamlit : <a href='https://bikesharing-fikaaw.streamlit.app/' target='_blank' title='Bike Sharing Dashboard by Ida Sri Afiqah | Streamlit'>Bike Sharing Dashboard by Ida Sri Afiqah</a>
-
 
 ## Berikut Tampilan atau hasil screenshot dari dashboard
 
